@@ -1,0 +1,16 @@
+.colourbtn {
+	border-radius: 50px;
+	height: 15px;
+	cursor: pointer;
+	border: 1px solid black;
+	padding: 10px;
+	margin: 2px;
+
+	&:hover {
+		filter: brightness(130%);
+	}
+
+	&:active {
+		filter: brightness(90%);
+	}
+}

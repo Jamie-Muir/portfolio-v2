@@ -1,0 +1,29 @@
+.techstacks {
+	width: 60%;
+	margin: 4rem auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.icon {
+	padding: 10px;
+	margin: 0px 10px;
+	transition: linear all .2s;
+	background-color: rgba(var(--accent-colour) 0.7);
+	border-radius: 25px;
+	outline: 3px var(--accent-colour) solid;
+	filter: grayscale(100%);
+}
+
+.icon:hover {
+	transform: scale(1.15);
+	filter: grayscale(0);
+}
+
+@media (min-width: 400px) {
+	.icon {
+		margin: 10px;
+	}
+}

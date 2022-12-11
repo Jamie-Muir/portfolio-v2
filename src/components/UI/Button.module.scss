@@ -1,0 +1,24 @@
+.button {
+	color: var(--text-color);
+	background-color: var(--secondary-colour);
+	padding: 7px 20px;
+	border: none;
+	font-size: 1.3em;
+	transition: var(--transition);
+
+	&:hover:not(:disabled) {
+		background-color: var(--accent-colour);
+		color: var(--text-color);
+		cursor: pointer;
+	}
+
+	&:active {
+		filter: brightness(80%);
+		box-shadow: inset var(--box-shadow);
+	}
+
+	&:disabled{
+		cursor: no-drop;
+		filter: brightness(50%)
+	}
+}

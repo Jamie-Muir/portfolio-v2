@@ -1,13 +1,104 @@
+@import-normalize;
+
+@font-face {
+	font-family: 'Dosis';
+	src: local('Dosis'), url(./assets/fonts/Dosis-VariableFont_wght.ttf) format('truetype');
+}
+
+/* * {
+	box-sizing: border-box;
+} */
+
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	font-family: Dosis, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+
+	background-color: var(--background-colour);
+	color: var(--text-colour);
+	overflow: hidden;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
+}
+
+:root {
+	/* colours */
+	--background-colour: #191919;
+	--secondary-colour: #333;
+	--accent-colour: #f80;
+	--text-colour: #fff;
+
+	/* Effects */
+	--box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.65);
+	--transition: ease 0.1s all;
+
+	/* media queries */
+	--breakpoint-phone: 400px;
+	--breakpoint-tablet: 768px;
+	--breakpoint-laptop: 1378px;
+	--breakpoint-4k: 2000px;
+
+	/* transition: ease all 5s; */
+}
+
+/* rgba(0,0,0, 0.35) */
+
+.wrapper {
+	padding: .6rem;
+	overflow-x: hidden;
+	overflow-y: auto;
+	/* background-color: #333; */
+	height: 84vh;
+	width: 95vw;
+	margin: auto;
+	margin-bottom: 2rem;
+	margin-top: 2px;
+	animation: fade-in 3s forwards;
+}
+
+@keyframes fade-in {
+	from { opacity: 0 }
+	to { opacity: 1; }
+	
+}
+
+@media (min-width: 450px) {
+	html {
+		max-height: 90vh;
+	}
+
+	.wrapper {
+		width: 99vw;
+		padding: 0;
+		margin-bottom: 0;
+	}
+}
+
+
+/* Width */
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: var(--secondary-colour);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: var(--accent-colour);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: var(--text-colour);
 }
