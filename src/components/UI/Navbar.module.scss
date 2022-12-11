@@ -99,7 +99,7 @@
 	100% { top: 0 }
 }
 
-@media (min-width: 400px) {
+@media (max-width: 400px) {
 	.navbar {
 		padding-left: 10px;
 	}
