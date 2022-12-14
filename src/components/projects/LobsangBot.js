@@ -1,5 +1,5 @@
 import React from 'react'
-import ProjectCard from './ProjectCard'
+import ProjectCard from './projectcard/ProjectCard'
 import classes from './Projects.module.scss';
 import code from '../../assets/images/code.webp'
 
@@ -13,7 +13,6 @@ function LobsangBot() {
 			background={code}
 			alt='Lobsang Discord Bot Image'
 			github='https://github.com/Jamie-Muir/LobsangBot'
-			js
 		>
 			Lobsang Bot is an application built in Javascript utilising the Discord API to provide moderation capabilities
 			via text-line to Discord servers.

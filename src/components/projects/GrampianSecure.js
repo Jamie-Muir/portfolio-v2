@@ -1,5 +1,5 @@
 import React from 'react'
-import ProjectCard from './ProjectCard';
+import ProjectCard from './projectcard/ProjectCard';
 
 import img from '../../assets/images/title-black.webp'
 import classes from './Projects.module.scss';
@@ -14,7 +14,6 @@ function GrampianSecure() {
 			alt='Grampian Secure Logo'
 			live='https://www.grampiansecure.co.uk'
 			// github='https://github.com/Jamie-Muir/grampian-secure'
-			html css js react
 		>
 			A full recreation of the businesses site with aims of providing a faster and more responsive solution.
 			<div>
@@ -23,7 +22,7 @@ function GrampianSecure() {
 				eliminated all blocking time.
 
 				<br />
-				-Worked with Instagram’s API to provide a dynamic display of the clients social media.
+				-Worked with Instagram's API to provide a dynamic display of the clients social media.
 
 				<br />
 				- Worked from a software specification agreed with the client detailing their needs and the project

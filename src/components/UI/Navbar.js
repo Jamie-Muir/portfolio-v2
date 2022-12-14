@@ -5,6 +5,7 @@ import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 import classes from './Navbar.module.scss';
 
 const contactEmail = 'JamieMuirCS@gmail.com';
+const iconSize = 20;
 
 function Navbar() {
 	return (
@@ -20,17 +21,17 @@ function Navbar() {
 						href={`mailto:${contactEmail}`}
 						className={classes.contact}
 					>
-						<FaEnvelope size={20} /> Contact
+						<FaEnvelope size={ iconSize } /> Contact
 					</a>
 				</li>
 				<li>
 					<a href='https://www.linkedin.com/in/jamie-muir-cs/' aria-label='LinkedIn' target='_blank' rel='noreferrer'>
-						<FaLinkedin size={20} /> LinkedIn
+						<FaLinkedin size={ iconSize } /> LinkedIn
 					</a>
 				</li>
 				<li>
 					<a href='https://github.com/jamie-muir' aria-label='Github' target='_blank' rel='noreferrer'>
-						<FaGithub size={20} /> Github
+						<FaGithub size={ iconSize } /> Github
 					</a>
 				</li>
 				{/* <li> <Link to='/projects'> Projects </Link> </li> */}

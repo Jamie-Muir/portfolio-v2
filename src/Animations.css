@@ -8,6 +8,20 @@
 	--in-left: InFromLeft;
 }
 
+.banner {
+	content: ' ';
+	position: absolute;
+	background-color: var(--accent-colour);
+	height: 10%;
+	width: 150%;
+	rotate: 20deg;
+	right: -50%;
+	top: 5em;
+	z-index: -5;
+	filter: brightness(70%);
+}
+
+
 @keyframes Opacity {
 	from {
 		opacity: 0;
@@ -17,6 +31,7 @@
 		opacity: 1;
 	}
 }
+
 @keyframes Visibility {
 	from {
 		visibility: hidden;

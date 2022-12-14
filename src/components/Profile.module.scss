@@ -23,11 +23,9 @@
 		font-weight: 400;
 		margin: auto;
 		position: relative;
-		visibility: hidden;
 		animation: 
 			var(--opacity) 2s, 
-			var(--in-right) 3s forwards,
-			var(--visibility) 1s forwards;
+			var(--in-right) 3s forwards;
 		color: var(--heading-text-colour);
 		span {
 			color: var(--accent-colour);
@@ -41,9 +39,7 @@
 		position: relative;
 		animation: 
 			var(--opacity) 2s, 
-			var(--in-right) 3s forwards,
-			var(--visibility) 1s forwards;
-		visibility: hidden;
+			var(--in-right) 3s forwards;
 	}
 
 	&::after {
@@ -57,6 +53,7 @@
 		animation: var(--in-left) 3s forwards;
 	}
 }
+
 
 @media (min-width: 400px) {
 	.profile {

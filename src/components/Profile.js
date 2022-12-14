@@ -12,7 +12,7 @@ function Profile() {
 				<br /><br />
 				I'm a front-end developer with experience in React and an ongoing exploration of Angular,
 				grounded in a familiarity with <br />Javascript (ES16), CSS, and HTML gained through
-				a Higher National Diploma course & a Bachelors in Computer Science,
+				a Higher National Diploma course & attaining Bachelors in Computer Science,
 				<br /> with additional skills continually built via Udemy courses.
 				<br />
 				The shifting and ever changing landscape of web development and a desire to learn it all
