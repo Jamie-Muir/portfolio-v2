@@ -21,17 +21,30 @@ function Navbar() {
 						href={`mailto:${contactEmail}`}
 						className={classes.contact}
 					>
-						<FaEnvelope size={ iconSize } /> <span>Contact</span>
+						<FaEnvelope size={ iconSize } /> 
+						<span>Contact</span>
 					</a>
 				</li>
 				<li>
-					<a href='https://www.linkedin.com/in/jamie-muir-cs/' aria-label='LinkedIn' target='_blank' rel='noreferrer'>
-						<FaLinkedin size={ iconSize } /> <span>LinkedIn</span>
+					<a 
+						href='https://www.linkedin.com/in/jamie-muir-cs/' 
+						aria-label='LinkedIn' 
+						target='_blank' 
+						rel='noreferrer'
+					>
+						<FaLinkedin size={ iconSize } /> 
+						<span>LinkedIn</span>
 					</a>
 				</li>
 				<li>
-					<a href='https://github.com/jamie-muir' aria-label='Github' target='_blank' rel='noreferrer'>
-						<FaGithub size={ iconSize } /> <span>Github</span>
+					<a 
+						href='https://github.com/jamie-muir' 
+						aria-label='Github' 
+						target='_blank' 
+						rel='noreferrer'
+					>
+						<FaGithub size={ iconSize } /> 
+						<span>Github</span>
 					</a>
 				</li>
 				{/* <li> <Link to='/projects'> Projects </Link> </li> */}
