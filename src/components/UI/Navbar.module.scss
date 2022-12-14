@@ -26,6 +26,7 @@
 		width: 150px;
 		line-height: 4rem;
 		// margin: -1px -1px -1px 0px;
+		border-left: 1px solid var(--accent-colour);
 		border-right: 1px solid var(--accent-colour);
 		background-color: var(--background-colour);
 		transition: ease-out .3s all;
