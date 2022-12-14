@@ -24,6 +24,8 @@
 		margin: auto;
 		position: relative;
 		animation: slideInFromRight 3s forwards;
+		color: var(--heading-text-colour);
+
 
 		span {
 			color: var(--accent-colour);
