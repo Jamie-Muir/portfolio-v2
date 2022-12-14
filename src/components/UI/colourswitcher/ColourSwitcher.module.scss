@@ -5,12 +5,10 @@
 	border: 1px solid black;
 	padding: 10px;
 	margin: 2px 5px;
+	filter: grayscale(1);
+	transition: linear .2s;
 
-	&:hover {
-		filter: brightness(130%);
-	}
-
-	&:active {
-		filter: brightness(90%);
+	&:hover, &:focus {
+		filter: grayscale(0);
 	}
 }
