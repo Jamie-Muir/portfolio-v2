@@ -16,7 +16,7 @@ function Navbar() {
 				</Link>
 			</div>
 			<ul className={`${classes.navbar__links}`}>
-				<li>
+				<li >
 					<a
 						href={`mailto:${contactEmail}`}
 						className={classes.contact}

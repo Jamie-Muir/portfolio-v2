@@ -1,5 +1,6 @@
 :root {
 	--opacity: Opacity;
+	--visibility: Visibility;
 	--in-top-delayed: InFromTopDelayed;
 	--in-top-bounce: InFromTopBounce;
 	--in-right: InFromRight;
@@ -14,6 +15,15 @@
 
 	to {
 		opacity: 1;
+	}
+}
+@keyframes Visibility {
+	from {
+		visibility: hidden;
+	}
+
+	to {
+		visibility: visible;
 	}
 }
 

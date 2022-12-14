@@ -19,18 +19,19 @@
 	padding: 0;
 	transition: var(--transition);
 	position: relative;
-	animation: var(--in-top-delayed) 2.5s;
 
 	li {
 		display: inline-block;
 		width: 150px;
 		line-height: 4rem;
-		border-left: 1px solid var(--accent-colour);
+		
 		border-right: 1px solid var(--accent-colour);
 		background-color: var(--background-colour);
 		transition: ease-out .3s all;
 		transition: linear 5s transform;
 		transition: ease .1s background-color;
+		position: relative;
+		animation: var(--in-top-delayed);
 
 		a {
 			box-sizing: content-box;
@@ -46,6 +47,16 @@
 			background-color: var(--accent-colour);
 			border-bottom: solid 2px var(--text-colour);
 		}
+
+		&:first-child {
+			border-left: 1px solid var(--accent-colour);
+		}
+	}
+
+	@for $i from 1 to 5 {
+		li:nth-child(n + #{$i}) {
+			animation-duration: calc($i / 3.5) + 2s;
+		} 
 	}
 }
 
@@ -61,7 +72,7 @@
 	border: 1px solid var(--accent-colour);
 	box-shadow: var(--box-shadow);
 
-	animation: var(--in-top-delayed) 3s;
+	animation: var(--in-top-delayed) 4s;
 
 	h1 {
 		display: block;
