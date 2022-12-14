@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 import classes from './Navbar.module.scss';
-import '../Animations.css'
 
 const contactEmail = 'JamieMuirCS@gmail.com';
 
