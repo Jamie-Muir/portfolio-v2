@@ -4,6 +4,7 @@
 	grid-template-columns: 1fr 1fr;
 	gap: 5rem;
 	animation: slideUp 2s forwards;
+	align-content: flex-start
 }
 
 .gridItem {
@@ -26,7 +27,7 @@
 	}
 }
 
-@media (max-width: 400px) {
+@media (max-width: 800px) {
 	.projectgrid {
 		grid-template-columns: 1fr;
 

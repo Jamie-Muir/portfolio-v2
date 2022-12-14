@@ -16,7 +16,9 @@ function Profile() {
 				<br /> with additional skills continually built via Udemy courses.
 				<br />
 				The shifting and ever changing landscape of web development and a desire to learn it all
-				 is what drives me to continue exploring.
+				is what drives me to continue exploring.
+				<br /><br />
+				When I'm not coding, I like to paint, meditate, and cycle, though not usually at the same time.
 			</p>
 
 		</div>

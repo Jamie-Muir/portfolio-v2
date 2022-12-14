@@ -1,7 +1,7 @@
 import React from 'react';
 import ColourButton from './ColourButton';
 
-import classes from './ColourSwitcher.module.scss';
+// import classes from './ColourSwitcher.module.scss';
 
 function ColourSwitcher() {
 	return (
