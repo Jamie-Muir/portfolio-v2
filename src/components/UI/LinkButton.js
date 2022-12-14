@@ -1,10 +1,10 @@
 import Button from "./Button";
 
-function ExternalButton(props) {
+function LinkButton(props) {
 	return (
 		<a
 			href={props.src}
-			target='_blank'
+			target={props.target && '_blank'}
 			rel='noreferrer'
 		>
 			<Button {...props} />
@@ -12,4 +12,4 @@ function ExternalButton(props) {
 	);
 }
 
-export default ExternalButton;
+export default LinkButton;
