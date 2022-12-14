@@ -16,17 +16,22 @@ function GrampianSecure() {
 			// github='https://github.com/Jamie-Muir/grampian-secure'
 			html css js react
 		>
-			A website redesign project for a local security company with the purpose of building a faster and smoother user
-			experience than their current solution that could also be decoupled from their hosting service.
-			<br /><br />
-			The initial site had a speed index of up to 10.6s at worst, according to lightbox.
+			A full recreation of the businesses site with aims of providing a faster and more responsive solution.
+			<ul>
+				<li>
+					Reduced First Contentful Paint from 3.1s with the old solution down to 0.8s with the new, and
+					eliminated all blocking time.
+				</li>
+				<li>
+					Worked with Instagram’s API to provide a dynamic display of the clients social media.
+				</li>
+				<li>
+					Worked from a software specification agreed with the client detailing their needs and the project
+					timescale which was fully met and enabled an on-time delivery.
+				</li>
+			</ul>
 
-			My redesign dramatically improved the fluidity and speed of the site. I accomplished this by building it as a
-			Single-Page Application with React, and utilising more advanced features such as lazy-loading to improve the
-			initial load time.
-			<br /><br />
-			Along with other improvements like converting all images to the Webp format the resulting design had a reported
-			speed index of under 1 second.
+
 
 		</ProjectCard>
 

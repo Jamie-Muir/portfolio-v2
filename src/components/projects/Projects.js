@@ -9,6 +9,8 @@ function Projects() {
 		<div className={classes.projectgrid}>
 			<GrampianSecure />
 			<LobsangBot />
+			<GrampianSecure />
+			<LobsangBot />
 		</div>
 	)
 }

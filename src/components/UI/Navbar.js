@@ -1,27 +1,25 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
-// import ColourSwitcher from './colourswitcher/ColourSwitcher';
 
 import classes from './Navbar.module.scss';
-import ExternalButton from './ExternalButton';
+import '../Animations.css'
 
 const contactEmail = 'JamieMuirCS@gmail.com';
 
 function Navbar() {
 	return (
 		<nav className={classes.navbar}>
-			<div className={classes.navbar__brand}>
+			<div className={`${classes.navbar__brand}`}>
 				<Link to='/' draggable='false'>
 					<h1 className={classes.brand}> JM </h1>
 				</Link>
 			</div>
-			<ul className={classes.navbar__links}>
+			<ul className={`${classes.navbar__links}`}>
 				<li>
 					<a
 						href={`mailto:${contactEmail}`}
 						className={classes.contact}
-					// data-replace={contactEmail}
 					>
 						<FaEnvelope size={20} /> Contact
 					</a>

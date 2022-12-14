@@ -3,31 +3,17 @@
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	gap: 5rem;
-	animation: slideUp 2s forwards;
-	align-content: flex-start
+	animation: 
+		var(--in-bottom) 2s forwards,
+		var(--opacity) 3s;
+	grid-auto-rows: min-content;
 }
 
 .gridItem {
-	// display: grid;
-	background-color: blue;
+	height: 100%;
 }
 
-.gridItem:nth-child(odd) {
-	grid-row: span 1;
-	// float: right
-}
-
-@keyframes slideUp {
-	from {
-		transform: translateY(50%);
-	}
-
-	to {
-		transform: translateY(0%);
-	}
-}
-
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
 	.projectgrid {
 		grid-template-columns: 1fr;
 

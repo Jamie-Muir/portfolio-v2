@@ -5,6 +5,9 @@
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-around;
+	animation:
+		var(--in-bottom) 2s forwards,
+		var(--opacity) 3s;
 }
 
 .icon {
