@@ -15,6 +15,7 @@ function FootNav() {
 					<ColourSwitcher />
 				</li>
 			</ul>
+			<p>Jamie Muir @2022</p>
 		</div>
 	)
 }

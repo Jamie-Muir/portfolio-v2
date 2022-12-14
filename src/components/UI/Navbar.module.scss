@@ -41,6 +41,8 @@
 			height: max-content;
 			color: var(--text-colour);
 			font-size: 1.5em;
+			
+
 		}
 
 
@@ -48,6 +50,7 @@
 			// z-index: 9999;
 			// padding-top: 30px;
 			// transform: translateY(15%);
+			color: var(--heading-text-colour);
 			background-color: var(--accent-colour);
 			border-bottom: solid 2px var(--text-colour);
 		}

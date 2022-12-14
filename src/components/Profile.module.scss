@@ -4,6 +4,7 @@
 		font-weight: 400;
 		margin: auto;
 		animation: headlinePopIn 3s forwards;
+		color: var(--heading-text-colour);
 
 		&::after {
 			position: relative;

@@ -34,7 +34,8 @@ code {
 	--background-colour: #191919;
 	--secondary-colour: #333;
 	--accent-colour: #f80;
-	--text-colour: #fff;
+	--heading-text-colour: #fff;
+	--text-colour: rgba(255, 255, 255, 0.85);
 
 	/* Effects */
 	--box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.65);
