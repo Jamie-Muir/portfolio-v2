@@ -23,10 +23,12 @@
 		font-weight: 400;
 		margin: auto;
 		position: relative;
-		animation: var(--in-right) 3s forwards;
+		visibility: hidden;
+		animation: 
+			var(--opacity) 2s, 
+			var(--in-right) 3s forwards,
+			var(--visibility) 1s forwards;
 		color: var(--heading-text-colour);
-
-
 		span {
 			color: var(--accent-colour);
 		}
@@ -37,7 +39,11 @@
 		font-weight: 300;
 		width: 70%;
 		position: relative;
-		animation: var(--opacity) 2s, var(--in-right) 3s forwards;
+		animation: 
+			var(--opacity) 2s, 
+			var(--in-right) 3s forwards,
+			var(--visibility) 1s forwards;
+		visibility: hidden;
 	}
 
 	&::after {
