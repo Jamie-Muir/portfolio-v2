@@ -1,8 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import ColourSwitcher from './colourswitcher/ColourSwitcher';
+// import ColourSwitcher from './colourswitcher/ColourSwitcher';
 
 import classes from './Navbar.module.scss';
+
+const contactEmail = 'JamieMuirCS@gmail.com';
 
 function Navbar() {
 	return (
@@ -13,11 +15,18 @@ function Navbar() {
 				</Link>
 			</div>
 			<ul className={classes.navbar__links}>
-				<li> <Link to='/projects'> Projects </Link> </li>
-				<li> <Link to='/now'> Now </Link> </li>
-				<li> 
-					<ColourSwitcher />
+				<li>
+					<a
+						href={`mailto:${contactEmail}`}
+						className={classes.contact}
+						// data-replace={contactEmail}
+					>
+						<span>Contact</span>
+					</a>
 				</li>
+				{/* <li> <Link to='/projects'> Projects </Link> </li> */}
+				{/* <li> <Link to='/now'> Now </Link> </li> */}
+
 			</ul>
 		</nav>
 	)

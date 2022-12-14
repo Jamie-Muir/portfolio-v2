@@ -6,9 +6,9 @@ import classes from './ColourSwitcher.module.scss';
 function ColourSwitcher() {
 	return (
 		<div>
-			<ColourButton colour='green' />
+			<ColourButton colour='rgb(72, 255, 0)' />
 			<ColourButton colour='#f80' />
-			<ColourButton colour='rgb(0, 61, 166)' />
+			<ColourButton colour='rgb(0, 140, 255)' />
 		</div>
 	)
 }
