@@ -19,7 +19,6 @@ function Navbar() {
 				<li >
 					<a
 						href={`mailto:${contactEmail}`}
-						className={classes.contact}
 					>
 						<FaEnvelope size={ iconSize } /> 
 						<span>Contact</span>
