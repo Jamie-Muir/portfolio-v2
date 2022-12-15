@@ -1,6 +1,6 @@
 .profile {
 	h1 {
-		font-size: 5em;
+		font-size: 4em;
 		font-weight: 400;
 		margin: auto;
 		animation: var(--in-top-bounce) 3s forwards;
@@ -55,10 +55,12 @@
 }
 
 
-@media (min-width: 400px) {
+@media (max-width: 450px) {
 	.profile {
-		h1 {
-			font-size: 4em;
+		width: 100%;
+
+		p {
+			width: 95%;
 		}
 	}
 }
