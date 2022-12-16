@@ -10,10 +10,13 @@ function Profile() {
 			<p><br />
 				Deeply curious and committed to the journey of life-long learning.
 				<br /><br />
-				I'm a front-end developer with experience in React and an ongoing exploration of Angular,
-				grounded in a familiarity with <br />Javascript (ES16), CSS, and HTML gained through
-				a Higher National Diploma course & attaining a Bachelors in Computer Science,
-				 with additional skills continually built since via Udemy courses & independant curiousity.
+				I'm a front-end developer with experience in React, 
+				and a familiarity with <br />modern Javascript (ES2016+), CSS, and HTML gained through
+				completing a Higher National Diploma course & attaining a Bachelors Degree in Computer Science,
+				 with additional skills continually built since via Udemy courses & independant curiosity.
+				<br /><br />
+				Currently working as a freelance developer (since Oct 22) and developing my front-end skills
+				towards the aim of landing a full-time position.
 				<br />
 				The shifting and ever changing landscape of web development and a desire to learn it all
 				is what drives me to continue exploring.
