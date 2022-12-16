@@ -35,12 +35,6 @@ function TechStacks() {
 			<IconImg src={SassSvg} alt='Sass Icon' tooltip='Sassy CSS' />
 			<IconImg src={HtmlSvg} alt='HTML5 Icon' tooltip='HTML 5' />
 			<IconImg src={CSS3Svg} alt='CSS3 Icon' tooltip='CSS' />
-
-			<IconImg src={ReactSvg} alt='React Icon' tooltip='React' />
-			<IconImg src={JavascriptSvg} alt='Javascript Icon' tooltip='Javascript' />
-			<IconImg src={SassSvg} alt='Sass Icon' tooltip='Sassy CSS' />
-			<IconImg src={HtmlSvg} alt='HTML5 Icon' tooltip='HTML 5' />
-			<IconImg src={CSS3Svg} alt='CSS3 Icon' tooltip='CSS' />
 		</div>
 	)
 }
