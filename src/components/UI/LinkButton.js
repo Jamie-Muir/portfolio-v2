@@ -4,7 +4,7 @@ function LinkButton(props) {
 	return (
 		<a
 			href={props.src}
-			target={props.target && '_blank'}
+			target={props.target}
 			rel='noreferrer'
 		>
 			<Button {...props} />

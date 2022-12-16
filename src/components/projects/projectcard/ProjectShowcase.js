@@ -6,8 +6,8 @@ function ProjectShowcase(props) {
 
 	return (
 		<div className={classes.project__showcase}>
-			<picture className={classes.project__image}  >
-				<img src={props.background} alt={props.alt} draggable='false' />
+			<picture className={classes.project__image}>
+				<img src={props.background} alt={props.alt} draggable='false'/>
 			</picture>
 			<div className={classes.project__controls} >
 
@@ -15,6 +15,7 @@ function ProjectShowcase(props) {
 					src={props.live}
 					name='live page'
 					disabled={!props.live}
+					target='_blank' 
 				>
 					See Live
 				</LinkButton>
@@ -23,6 +24,7 @@ function ProjectShowcase(props) {
 					src={props.github}
 					name='github'
 					disabled={!props.github}
+					target='_blank' 
 				>
 					View Code
 				</LinkButton>
