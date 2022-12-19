@@ -4,7 +4,7 @@ import Home from './pages/Home';
 import Now from './pages/Now';
 // import Projects from './pages/Projects';
 
-function Router() {
+function ViewRoute() {
 	return (
 		<div className='wrapper'>
 			<Route path='/' exact>
@@ -17,4 +17,4 @@ function Router() {
 	)
 }
 
-export default Router;
+export default ViewRoute;

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import ProjectCard from './projectcard/ProjectCard';
 
 import img from '../../assets/images/title-black.webp'
@@ -13,7 +13,6 @@ function GrampianSecure() {
 			background={img}
 			alt='Grampian Secure Logo'
 			live='https://www.grampiansecure.co.uk'
-			// github='https://github.com/Jamie-Muir/grampian-secure'
 		>
 			A full recreation of the businesses site with aims of providing a faster and more responsive solution.
 			<div>
