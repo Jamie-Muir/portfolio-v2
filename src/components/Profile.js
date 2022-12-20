@@ -7,6 +7,7 @@ function Profile() {
 		<div className={classes.profile}>
 			<h1>Jamie Muir</h1>
 			<h2> <span>Front-End</span> Developer </h2>
+			<h3> Aberdeen // Scotland - Open to Relocation </h3>
 			<p><br />
 				Deeply curious and committed to the journey of life-long learning.
 				<br /><br />

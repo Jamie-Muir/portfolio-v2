@@ -32,6 +32,15 @@
 		}
 	}
 
+	h3 {
+		position: relative;
+		margin: 5px 0px 0px;
+		font-weight: 100;
+		opacity: 0;
+		animation: var(--opacity-half) .5s forwards;
+		animation-delay: 3s;
+	}
+
 	p {
 		font-size: 1.5em;
 		font-weight: 300;
