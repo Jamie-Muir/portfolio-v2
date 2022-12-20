@@ -1,12 +1,13 @@
 import React from 'react';
 import ProjectCard from './projectcard/ProjectCard';
 
-import img from '../../assets/images/title-black.webp'
+import img from '../../assets/images/bugout-logo.webp'
 import classes from './Projects.module.scss';
 
 function Bugout() {
 	return (
 		<ProjectCard
+			inProgress
 			title='Bugout'
 			subtitle='Ticket Tracker & Project Manager'
 			className={classes.gridItem}

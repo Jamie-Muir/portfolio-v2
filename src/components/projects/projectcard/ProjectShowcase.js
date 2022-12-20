@@ -6,6 +6,7 @@ function ProjectShowcase(props) {
 
 	return (
 		<div className={classes.project__showcase}>
+			{props.children}
 			<picture className={classes.project__image}>
 				<img src={props.background} alt={props.alt} draggable='false'/>
 			</picture>

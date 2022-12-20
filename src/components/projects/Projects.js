@@ -11,8 +11,8 @@ function Projects() {
 		<div className={classes.projectgrid}>
 			<Bugout />
 			<GrampianSecure />
-			<JustReact />
 			<LobsangBot />
+			<JustReact />
 		</div>
 	)
 }
