@@ -6,8 +6,8 @@ import ColourButton from './ColourButton';
 function ColourSwitcher() {
 	return (
 		<div>
-			<ColourButton colour='rgb(72, 255, 0)' />
 			<ColourButton colour='#f80' />
+			<ColourButton colour='rgb(72, 255, 0)' />
 			<ColourButton colour='rgb(0, 140, 255)' />
 		</div>
 	)

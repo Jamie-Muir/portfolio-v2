@@ -7,9 +7,10 @@ import img from '../../assets/images/just-eat.webp';
 function JustReact() {
 	return (
 		<ProjectCard
+			inProgress
 			title='Just React'
 			subtitle="React clone of Just Eat"
-			className={classes.gridItem}
+			className={`${classes.gridItem} ${classes.dimimage}`}
 			background={img}
 			alt='Just Eat Current Splash Image'
 			bgShadow
@@ -18,7 +19,7 @@ function JustReact() {
 		>
 			A front-end replication of the Just Eat website to reinforce skills in building an application to the 
 			specification of a design and maintaining a similar standard of speed and responsiveness.
-			<div>
+			{/* <div>
 				<br />
 				- 
 
@@ -28,7 +29,7 @@ function JustReact() {
 				<br />
 				- 
 
-			</div>
+			</div> */}
 
 		</ProjectCard>
 	)

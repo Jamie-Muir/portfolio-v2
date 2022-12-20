@@ -4,12 +4,13 @@ import Profile from '../components/Profile';
 import TechStacks from '../components/TechStacks';
 
 import classes from './Home.module.scss';
+import Tech from '../components/Tech';
 
 function Home() {
 	return (
 		<div className={classes.home}>
 			<Profile />
-			<TechStacks />
+			<Tech />
 			<Projects />
 		</div>
 	)

@@ -14,22 +14,29 @@ function LobsangBot() {
 			alt='Lobsang Discord Bot Image'
 			github='https://github.com/Jamie-Muir/LobsangBot'
 		>
-			Lobsang Bot is an application built in Javascript utilising the Discord API to provide moderation capabilities
-			via text-line to Discord servers.
-			<br />
-			This project was developed as an exploration of text interfaces in javascript and provided a practice ground to
-			utilise ES6 features and module exports in creating a highly scalable project.
-			<br /><br />
-			Exporting commands/functions as an object that contained meta data about the function was one of my favourite
-			structural elements of this project and a great learning experience in moving data around in Javascript. How well
-			the functions are related to the user and maintainer is something I consider a success of the project and was a
-			good precursor to developing my skills in React.
+			An application built in Javascript utilising the Discord API to provide moderation capabilities
+			via text command input to Discord servers.
+			<div>
+				<br />
+				- Modularity & scalability as the core design principles, with the ability to plug in any module logic
+				and support it with a library of error-reporting, permission-checking, and utility functions.
 
-			<br /><br />
-			If I were to revisit this project, I would take what I've learned from React in compartmentalising file systems
-			and focus on building a better overall file structure for the project as I feel that, along with function bloat
-			in certain places, are the core areas to learn from with this project.
+				<br />
+				- Each module contained a meta-data object to fill helper functions or to report feedback to the user.
+				<br />
+			</div>
+			If I were to revisit this project or attempt one similar in the future, the biggest areas of improvement for me
+			would be
+			<div>
+				<br />
+				- Utilising what I've learned in writing clean code since, but particularly focusing on separation of concerns
+				& DRY code. In most modules I check permissions, or report errors; With what I know from modularity in React,
+				this is an area that could be improved & extracted.
 
+				<br />
+				- Implementing a standard for file structures; As one of my earliest modular Javascript programs I experimented with
+				different formats, particularly for utilities, most don't hold up to the test of time.
+			</div>
 		</ProjectCard>
 	)
 }

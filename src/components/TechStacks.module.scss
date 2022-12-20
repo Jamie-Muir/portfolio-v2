@@ -11,19 +11,36 @@
 		var(--opacity) 3s;
 }
 
+$background-colour: var(--accent-colour);
+
 .icon {
 	padding: 15px;
 	margin: 0px 10px;
-	transition: linear all .2s;
-	background-color: rgba(var(--accent-colour) 0.7);
+	transition: ease all .2s;
 	border-radius: 25px;
-	outline: 3px var(--accent-colour) solid;
-	filter: grayscale(100%);
+	// outline: 3px var(--accent-colour) solid;
+ 
+	cursor: help;
+
+	filter: 
+	// drop-shadow(-1px -1px 0px #fff) 
+    // drop-shadow(2px -1px 0px #fff) 
+		grayscale(100%)
+		// drop-shadow(1px 1px 0px var(--overlay-colour))
+		// drop-shadow(1px 2px 2px #fff)
 }
 
 .icon:hover {
 	transform: scale(1.15);
-	filter: grayscale(0);
+	filter: 
+		grayscale(0)
+		drop-shadow(1px 2px 4px var(--accent-colour));
+	// background-color: var(--background-colour);
+
+	img {
+		filter: drop-shadow(-1px 2px 1px #fff);
+
+	}
 }
 
 @media (max-width: 450px) {

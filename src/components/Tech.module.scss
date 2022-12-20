@@ -1,0 +1,35 @@
+.container {
+	padding: 5rem 1rem 7rem;
+	width: 90%;
+
+	.line {
+		display: block;
+		content: '';
+		height: 3px;
+		background-color: var(--accent-colour);
+	}
+
+	.flex {
+		display: flex;
+		margin: auto;
+		justify-content: space-around;
+		align-items: center;
+
+		h3 {
+			text-align: center;
+			font-size: 2em;
+		}
+
+		.line {
+			margin: auto;
+			width: 20%;
+		}
+	}
+
+	.line {
+		margin: auto;
+		margin-top: 7rem;
+		width: 60%;
+	}
+
+}
